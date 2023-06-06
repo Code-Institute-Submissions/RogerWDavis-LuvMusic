@@ -25,3 +25,38 @@ h1, h2{
     float: left;
     font-size: 300%;
 }
+
+/* NAV Links */
+#menu{
+    font-size: 130%;
+    letter-spacing: 5px;
+}
+
+#menu, #logo{
+    line-height: 80px;
+}
+
+#menu ul{
+    float: right;
+}
+
+#menu li{
+    float: left;
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+#menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+    font-weight: bold;
+}
