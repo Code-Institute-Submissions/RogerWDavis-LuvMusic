@@ -9,7 +9,13 @@
 body{
     font-family: Lora, Helvetica, sans-serif;
     font-weight: 400;
-    color: #3a3a3a;
+    color:#3a3a3a;
+}
+
+#header{
+    height: 5%;
+    width: 100%;
+    background-color: #3a3a3a;
 }
 
 /* Headings & Logo */
@@ -18,17 +24,17 @@ h1, h2{
     font-family: Lora, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #252525;
+    color:#3a3a3a;
 }
 
 #logo{
     float: left;
-    font-size: 300%;
+    font-size: 500%;
 }
 
 /* NAV Links */
 #menu{
-    font-size: 130%;
+    font-size: 200%;
     letter-spacing: 5px;
 }
 
@@ -59,4 +65,35 @@ h1, h2{
 #menu a:hover{
     border-bottom: 1px solid #3a3a3a;
     font-weight: bold;
+}
+
+/* Hero Image */
+#hero-outer{
+    height:75px;
+    width: 100%;
+}
+#hero-image{
+    height: 700px;
+    width: 100%;
+    background-image: url('../images/concert.jpg');
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    /* animates effect on loading page */
+    animation-name: hero-effect;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+/* Create Hero Image Zoom */
+@keyframes hero-effect{
+    from{
+        opacity: 0
+    }
+    to{
+        opacity: 1;
+    }
+    
+
 }
