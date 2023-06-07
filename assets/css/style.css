@@ -325,3 +325,23 @@ h2{
     vertical-align: middle;
 
 }
+
+/* Footer */
+
+footer {
+    height: auto;
+}
+
+.footlist {
+    text-align: center;
+}
+
+.footlist>li {
+    display: inline;
+}
+
+.footlist i {
+    font-size: 150%;
+    padding: 5%;
+    color: #3a3a3a;
+}
