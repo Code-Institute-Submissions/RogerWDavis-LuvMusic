@@ -20,12 +20,18 @@ body{
 
 /* Headings & Logo */
 
-h1, h2{
+h1 {
     font-family: Lora, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
     color:#3a3a3a;
 }
+
+h2{
+    font-family: Lora, sans-serif;
+    letter-spacing: 5px;
+    color: #3a3a3a;
+    }
 
 #logo{
     float: left;
@@ -56,6 +62,7 @@ h1, h2{
 #menu a{
     text-decoration: none;
     color: inherit;
+
 }
 
 .active{
@@ -90,6 +97,49 @@ h1, h2{
     animation-duration: 5s;
     animation-fill-mode: forwards;
 }
+
+/* Landing page main text */
+
+#text-h1{
+    
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 125%;
+    margin-bottom: 80px;
+   
+}
+
+#text-h2{
+    height: 600px;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#text-h2 h2{
+    margin-bottom: 40px;
+}
+
+#text-h2 span{
+    font-size: 110%;
+    color: rgb(214, 12, 12);
+    
+}
+
+#text-h2 a{
+    text-decoration: none;
+    color: #4e4486;
+}
+
+#text-h2 a:hover {
+    border-bottom: 1px solid #3a3a3a;
+    font-size: 110%;
+}
+
+
+
 
 
 /* Create Hero Image Zoom */
@@ -130,7 +180,7 @@ h1, h2{
 }
 
 
-/* Create Hero Image Zoom */
+/* Create about Image Zoom */
 @keyframes about-effect {
     from {
         opacity: 0
