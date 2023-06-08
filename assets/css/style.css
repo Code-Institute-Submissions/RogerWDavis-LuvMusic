@@ -9,40 +9,36 @@
 body{
     font-family: Lora, Helvetica, sans-serif;
     font-weight: 400;
-    color:#3a3a3a;
+    color:white;
+    letter-spacing: 5px;
 }
 
-#header{
-    height: 5%;
-    width: 100%;
-    background-color: #3a3a3a;
-}
 
 /* Headings & Logo */
 
-h1 {
+.header {
+    background-color: whitesmoke;
+    border-color:whitesmoke ;
     font-family: Lora, sans-serif;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color:#3a3a3a;
+    font-weight: bolder;
+    padding-bottom: 3rem;
 }
 
-h2{
-    font-family: Lora, sans-serif;
-    letter-spacing: 5px;
-    color: #3a3a3a;
-    }
 
-#logo{
+#logo {
     float: left;
     font-size: 500%;
     margin-left: 5px;
+    color: #3a3a3a;
 }
 
 /* NAV Links */
 #menu{
     font-size: 200%;
     letter-spacing: 5px;
+    color: #3a3a3a;
 }
 
 #menu, #logo{
@@ -51,6 +47,8 @@ h2{
 
 #menu ul{
     float: right;
+    display: block;   
+   
 }
 
 #menu li{
@@ -75,165 +73,93 @@ h2{
     font-weight: bold;
 }
 
-/* Hero Image & cover text */
 
-#hero-outer{
+
+
+/* Landing page CSS */
+
+#landing-outer{
     height:75px;
     width: 100%;
-    position: relative;
+    
 }
 
 
-#hero-image{
-    height: 700px;
-    width: 100%;
-    background-image: url('../images/concert.jpg');
-    background-repeat:no-repeat;
-    background-position: center center;
-    background-size: cover;
+.landing-content{
+   width:100vw;
+   height:100vh;
 
-    /* animates effect on loading page */
-    animation-name: hero-effect;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(../images/concert.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-attachment: fixed;
+
 }
 
 /* Landing page main text */
 
-#text-h1{
+
+.landing-content h1{
     
-    height: auto;
-    width: 100%;
     text-align: center;
-    vertical-align: middle;
-    font-size: 125%;
-    margin-bottom: 80px;
+    padding-top: 3rem;
+    margin-bottom: 7rem;
+
    
 }
 
-#text-h2{
-    height: auto;
+.landing-content h2{
+
     width: 100%;
     text-align: center;
     vertical-align: middle;
-}
-
-#text-h2 h2{
-    margin-bottom: 40px;
-}
-
-#text-h2 span{
-    font-size: 110%;
-    color: rgb(214, 12, 12);
-    
-}
-
-#text-h2 a{
-    text-decoration: none;
-    color: #4e4486;
-}
-
-#text-h2 a:hover {
-    border-bottom: 1px solid #3a3a3a;
-    font-size: 110%;
+    font-size: 1rem;
+    margin-bottom: 7rem;
 }
 
 
+/* wedo Page CSS */
 
 
-/* Create Hero Image Zoom */
-@keyframes hero-effect{
-    from{
-        opacity: 0
-    }
-    to{
-        opacity: 1;
-    }
-    
-
-}
-
-/* About Page CSS */
-
-/*  About Image  */
-
-#about-outer {
+#wedo-outer {
     height: 75px;
     width: 100%;
-    position: relative;
+
 }
 
 
-#about-image {
-    height: 700px;
-    width: 100%;
-    background-image: url('../images/applause.jpg');
+.wedo-content {
+    width: 100vw;
+    height: 100vh;
+
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/applause.jpg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    background-size: cover;
-
-    /* animates effect on about page */
-    animation-name: about-effect;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-}
-
-
-/* Create about Image effect */
-@keyframes about-effect {
-    from {
-        opacity: 0
-    }
-
-    to {
-        opacity: 1;
-    }
-
+    background-attachment: fixed;
 
 }
 
 /* About Text */
 
-#about-h1 {
+.wedo-content h1 {
 
-    height: 80px;
+    text-align: center;
+    padding-top: 3rem;
+    margin-bottom: 7rem;
+
+
+}
+
+.wedo-content h2 {
+
     width: 100%;
     text-align: center;
     vertical-align: middle;
-    font-size: 125%;
-
+    font-size: 1rem;
+    margin-bottom: 7rem;
 }
-
-#about h2 h3{
-    margin-bottom: 40px;
-}
-
-
-#plan{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 40px;
-}
-
-#jam {
-    height: auto;
-    width: 100%;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 40px;
-}
-
-#serve{
-    height: auto;
-    width: 100%;
-    text-align: center;
-    vertical-align: middle;
-    margin-bottom: 40px;
-}
-
-
 
 
 
@@ -330,6 +256,7 @@ h2{
 
 footer {
     height: auto;
+    background-color: whitesmoke;
 }
 
 .footlist {
@@ -344,4 +271,18 @@ footer {
     font-size: 150%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+/* Media Queries */
+
+@media screen and  (max-width:970px){
+   
+
+    #menu{
+        clear: left;
+        float: left;
+        margin-left: 7px;
+        margin-bottom:20px;
+        line-height: 30px;
+    }
 }
