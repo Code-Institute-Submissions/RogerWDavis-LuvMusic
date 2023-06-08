@@ -1,39 +1,82 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# LuvMusic
+LuvMusic is a landing page where music enthusiasts in, around or planning to visit the Mannheim area can join  network of like minded individuals in order to share their love of music, whether it be at live shows, open mics or a local pub.
 
-Welcome,
+users of this website will find general information as to the offerings of the LuvMusic organization and input their name and email on the sign up sheet to be added to the member datatbase and mailing list. The site is targeted towards music lovers of all demographics.
 
-This is the Code Institute student template for Codeanywhere. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+<img src="../images/responsive.png" alt="Responsiveness check screenshot">
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **May 11th, 2023**
+# Features
+* Navigation
+  * Featured on the top left, the Logo can be found, informing the user as to what web-page they are viewing.
+  * On the top right, a navigation bar with links to the About and Sign-up sections of the page.
+  * The navigation bar provides an easy structure for the user to navigate through the pages of the site.
+  <img src="../images/header.png" alt="header/navbar screenshot">
 
-## Codeanywhere Reminders
+* The Header
+  * Here the Header is used as a container for the Logo and Navigation bar.
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+* The background image
+  * This feature acts as a kind of fixed Hero Image and scrolls as the user engages with the        initial calls to action on the landing page. This is to provide dynamics and also to begin calls to explore the page further.
+  <img src="../images/hero-background.png" alt="background screenshot">
 
-`python3 -m http.server`
+* The Audio Player
+ * the audio player is set to mute, but if engaged with using the embeded controls, the user may sample existing work from local artists.
+ <img src="../images/audio-player.png" alt="audio-player screenshot">
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* The Footer
+ * The footer provides links to all social media accounts where the user can engage the team.
+ <img src="../images/footer.png" alt="footer screenshot">
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+* About (page two)
+ * Here the user will find more detailed information as to the usefulness of the LuvMusic community. It explains who the company targets and what value is being offered. 
 
-`http_server`
+ * The about page is structured in much the same way as the landing page for consistancy. There is also a scrolling background image and an audio player.
+ <img src="../images/about.png" alt="About page screenshot">
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Sign-up
+ * On the third page there is a sign-up form that prompts the user to input first name, last name and addrress to that may join the community. Each input is required to submit.
+ <img src="../images/sign-up.png" alt="Form page screenshot">
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+# Testing
+* I tested that this site works in multiple browsers, including Chrome and Safari.
+* I confirmed that the site looks good, is responsive and functions on all standard screen sizes using amiresponsivedesign.is.
+* I confirmed that all text are readable and easy to understand.
+* I have confirmed that the form works, requires entries in every field and only accepts the email format in the email block. The submit button works.
 
-To log into the Heroku toolbelt CLI:
+## Bugs
+### Solved Bugs
+* After deploying the project and testing it, I found that the text required resizing. This I did.
+* I also rfound aa broken link on the landing page. The link had an inaccurate href value. This was corrected.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+## Validator Testing
+* No errors were returned from the HTML W3C validator.
+* No errors were returned from the CSS Jigsaw validator.
+* The Lighthouse tect returned 100% accessibility.
+<img src="../images/lighthouse.png" alt="Lighthouse Result screenshot">
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Unfixed Bugs
+* No bugs
 
----
+# Deployment
+* The site was deployed to GitPages using the following steps:
+ * Rename document (rogerwdavis.github.io)
+ * Navigate to settings tab.
+ * Navigate to pages.
+ * From the source section dropdown, select main.
+ * Save.
 
-Happy coding!
+ The live link can be found here: [LuvMusic](https://rogerwdavis.github.io/index.html)
+
+ # Credits
+ * The Footer and a portion of the Header code was taken from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/01-getting-set-up/02-boilerplate/index.html) project
+ 
+ * Form input and submit button CSS  were taken from the [Sign_Up](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/01-getting-set-up/02-boilerplate/index.html) Challenge. 
+
+
+
+
+
+
+
+
