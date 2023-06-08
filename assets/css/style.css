@@ -394,31 +394,3 @@ footer {
         }
 }
 
-/*@media screen and (min-width:1440px) {
-
-    #logo {
-        font-size: 500%;
-    }
-
-    .landing-content h2 {
-        font-size: 150%;
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-    }
-
-    .landing-content h3 {
-        font-size: 150%;
-        margin-bottom: 5rem
-    }
-
-    .wedo-content h2 {
-        font-size: 150%;
-        margin-top: 1rem;
-        margin-bottom: 5rem;
-    }
-
-    .wedo-content h3 {
-        font-size: 150%;
-        margin-bottom: 0rem
-    }
-}
