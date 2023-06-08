@@ -68,7 +68,7 @@ users of this website will find general information as to the offerings of the L
  * From the source section dropdown, select main.
  * Save.
 
- The live link can be found here: [LuvMusic](https://rogerwdavis.github.io/index.html)
+ The live link can be found here: [LuvMusic](https://rogerwdavis.github.io/LuvMusic/)
 
  # Credits
  * The Footer and a portion of the Header code was taken from the [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/blob/main/01-getting-set-up/02-boilerplate/index.html) project
