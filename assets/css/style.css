@@ -120,6 +120,10 @@ body{
     font-weight: bolder;
 }
 
+.landing-content a{
+    color:#f16c6b;
+}
+
 
 /* wedo Page CSS */
 
@@ -170,7 +174,7 @@ body{
 
 .form-section {
     clear: left;
-    background: url("../images/studio.jpg");
+    background:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../images/studio.jpg");
     background-size: cover;
     background-position: center;
     height: 900px;
